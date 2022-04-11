@@ -1,7 +1,7 @@
 import React from 'react';
 import './QuoteCard.css';
 
-function DisplaySimpson = ({ quote, character, image }) => (
+function DisplaySimpson = { quote, character, image } => (
   <figure className="QuoteCard">
     <img src={image} alt={character} />
     <figcaption>

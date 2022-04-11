@@ -26,15 +26,15 @@ function App() {
       .then((response) => response.data)
       // Use this data to update the state
       console.log(data);
-      });
-  };
+      };
+ 
   return (
     <div className='App'>
       <DisplaySimpson simpson={sampleSimpson} />
       <button type="button" onClick={getSimpson}>Get Simpson</button>
     </div>
   );
-}
+};
 
 export default App;
 
